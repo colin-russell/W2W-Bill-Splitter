@@ -58,17 +58,49 @@
 		3B56CB6F208BD7BA009490E0 /* W2W Bill Splitter */ = {
 			isa = PBXGroup;
 			children = (
+				3B56CB8A208BD831009490E0 /* Controller */,
+				3B56CB89208BD81E009490E0 /* Model */,
+				3B56CB88208BD80D009490E0 /* View */,
+				3B56CB86208BD7D1009490E0 /* Supporting Files */,
+			);
+			path = "W2W Bill Splitter";
+			sourceTree = "<group>";
+		};
+		3B56CB86208BD7D1009490E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				3B56CB70208BD7BA009490E0 /* AppDelegate.h */,
 				3B56CB71208BD7BA009490E0 /* AppDelegate.m */,
-				3B56CB73208BD7BA009490E0 /* ViewController.h */,
-				3B56CB74208BD7BA009490E0 /* ViewController.m */,
-				3B56CB76208BD7BA009490E0 /* Main.storyboard */,
 				3B56CB79208BD7BE009490E0 /* Assets.xcassets */,
 				3B56CB7B208BD7BE009490E0 /* LaunchScreen.storyboard */,
 				3B56CB7E208BD7BE009490E0 /* Info.plist */,
 				3B56CB7F208BD7BE009490E0 /* main.m */,
 			);
-			path = "W2W Bill Splitter";
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B56CB88208BD80D009490E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B56CB76208BD7BA009490E0 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3B56CB89208BD81E009490E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3B56CB8A208BD831009490E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B56CB73208BD7BA009490E0 /* ViewController.h */,
+				3B56CB74208BD7BA009490E0 /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
